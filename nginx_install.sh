@@ -1,6 +1,6 @@
 #!/bin/sh
 apt-get update; apt-get install nginx -y
-wget https://github.com/sibuk76/reverse_proxy/blob/main/sites-available.tgz
+wget https://github.com/sibuk76/reverse_proxy/raw/main/sites-available.tgz
 cd /root/
 tar -xf sites-available.tgz -C /etc/nginx/
 unlink /etc/nginx/sites-enabled/default
